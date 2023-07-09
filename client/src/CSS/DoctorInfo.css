@@ -1,0 +1,121 @@
+/* card css */
+
+
+.headinG {
+    font-size: 3.5rem;
+    text-align: center !important;
+    color: rgba(59, 130, 246, 1);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.profile-carD {
+    background-color: #ffffff !important;
+    width: 28rem !important;
+    height: auto !important;
+    margin: 20px 10px 10px 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px !important;
+}
+
+.profile-content {
+    padding: 1rem !important;
+}
+.img {
+    width: 12rem !important;
+    height: 12rem !important;
+    border-radius: 50px !important;
+    border-radius: 8rem !important;
+    object-fit: cover !important;
+    margin: 1rem 0 !important;
+}
+
+.profile-image {
+    text-align: center !important;
+}
+
+.description {
+    text-align: center !important;
+}
+
+.headD {
+    color: rgba(59, 130, 246, 1) !important;
+    font-size: 2.2rem !important;
+    margin: 1rem 0 !important;
+    text-transform: uppercase !important;
+}
+
+.paraA {
+    font-size: 1.6rem !important;
+    line-height: 1.3em !important;
+    color: #000000 !important;
+    margin: 2rem 0 !important;
+    font-weight: lighter !important;
+}
+
+.btn-div {
+    text-align: center !important;
+}
+
+.btn {
+    background-color: rgba(59, 130, 246, 1) !important;
+    color: #fff !important;
+    width: 10rem !important;
+    cursor: pointer !important;
+    height: 3.5rem !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    box-shadow: 3px 3px 3px 3px #e6e6e6 !important;
+    border-radius: 3px !important;
+    outline: none !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    margin-bottom: 1rem !important;
+}
+
+.btn:hover {
+    background-color: rgb(27, 86, 182) !important;
+}
+
+
+/* @meadia Querys */
+@media (max-width: 768px) {
+
+    .headinG {
+        font-size: 2.8rem !important;
+        font-weight: 900;
+        padding: 1rem;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .profile-carD {
+        background-color: #ffffff !important;
+        width: 28rem !important;
+        height: auto !important;
+        margin: 20px 10px 10px 10px !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 8px !important;
+    }
+
+
+    .headD {
+        font-size: 2.2rem !important;
+        font-weight: 800 !important;
+    }
+
+    .paraA {
+        margin: 1rem 0 !important;
+    }
+
+    .slider-controler .swiper-button-next {
+        left: 81% !important;
+        transform: translateY(-70%) !important;
+      }
+    
+      .slider-controler .swiper-button-prev {
+        left: 9% !important;
+        transform: translateY(-70%) !important;
+      }
+
+}

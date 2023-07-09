@@ -1,0 +1,129 @@
+
+    
+.logo {
+    color: white !important;
+    font-weight: bold !important;
+    margin-top: 85px !important;
+    padding: 0 10px !important;
+    font-size:3.5rem !important;
+}
+
+.role {
+    color: white !important;
+    font-size: 14px !important;
+    margin-top: -10px !important;
+    padding: 0 10px !important;
+}
+
+.menu {
+    padding: 0 10px !important;
+}
+
+.menu-item {
+    margin-top: 30px !important;
+}
+
+.menu-item a {
+    color: rgba(255, 255, 255, 0.727) !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+}
+
+.menu-item svg {
+    margin: 0rem 1rem !important;
+}
+
+.active-menu-item {
+    /* color: white; */
+    background-color: #013737 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+}
+
+
+
+/* main logic of Navbar */
+
+
+.menu-items {
+    background-color: #005555 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 2px gray !important;
+    height: 97vh !important;
+    z-index: 99 !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    
+    transform: translateX(-110%) !important;
+    transition: all 300ms ease-in-out !important;
+
+}
+
+.humburger-menu input[type="checkbox"]:checked~.menu-items {
+    transform: translateX(0%) !important;
+}
+
+.humburger-menu input[type="checkbox"] {
+    width: 45px !important;
+    height: 36px !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 24px !important;
+    transform: translateX(5%) !important;
+    transform: translateY(85%) !important;
+    z-index: 999 !important;
+    opacity: 0;
+}
+
+.humburger-lines {
+    width: 34px !important;
+    height: 30px !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 30px !important;
+    transform: translateX(5%) !important;
+    transform: translateY(110%) !important;
+    z-index: 9 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    z-index: 998 !important;
+}
+
+
+
+.humburger-lines .line {
+    width: 100% ;
+    height: 4px ;
+    background: black !important;
+
+    transition: all 300ms ease-in-out !important;
+}
+
+/* animation for humburger lines */
+/* ----------------------------- */
+
+.humburger-lines .line1 {
+    transform-origin: top left;
+}
+
+.humburger-lines .line3 {
+    transform-origin: bottom left;
+}
+
+.humburger-menu input[type="checkbox"]:checked~.humburger-lines .line1 {
+    transform: rotate(41.5deg);
+}
+
+.humburger-menu input[type="checkbox"]:checked~.humburger-lines .line2 {
+    display: none;
+}
+
+.humburger-menu input[type="checkbox"]:checked~.humburger-lines .line3 {
+    transform: rotate(-43deg);
+    position: relative;
+    top: -4px;
+}
+

@@ -1,0 +1,94 @@
+/* navbar */
+
+.CommanNavbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 00px 80px !important;
+    padding-top: 20px !important;
+    background: rgb(213, 212, 222, );
+    background: linear-gradient(90deg, rgba(213, 212, 222, 100) 0%, rgba(227, 227, 233, 100) 35%, rgba(219, 235, 234, 100) 100%);
+}
+
+
+.sign-stronG {
+    font-size: xx-large !important;
+    color: white !important;
+}
+
+.sign-P {
+    color: white !important;
+    font-size: small !important;
+}
+
+.iconS {
+    display: block !important;
+}
+
+
+#navbar li a.activE {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    font-size: 2rem !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+    transition: 0.6s ease !important;
+    margin-right: 25px !important;
+}
+
+#navbar li a.activE:hover {
+    background-color: #fff !important;
+    color: black !important;
+
+}
+
+
+
+@media screen and (max-width:769px) {
+
+    /* logo */
+
+    .sign-stronG {
+        font-size: 3rem !important;
+        color: rgba(59, 130, 246, 1) !important;
+    }
+
+    .sign-P {
+        margin-left: -15px !important;
+        font-size: small;
+        color: black !important;
+        font-size: small !important;
+    }
+
+    .CommanNavbar {
+        padding: 00px 18px !important;
+        padding-top: 20px !important;
+    }
+
+    .iconS {
+        font-size: 35px !important;
+        cursor: pointer !important;
+        color: rgba(59, 130, 246, 1) !important;
+        position: relative;
+        z-index: 9999;
+        transition: 0.3s ease-in-out;
+    }
+
+    
+
+    #navbar.activE {
+        right: 0px !important;
+    }
+
+    #navbar li a.activE {
+        margin-left: 20px;
+        font-size: 1.9rem !important;
+        font-weight: 700;
+        color: rgb(75 133 232) !important;
+    }
+
+
+
+
+}

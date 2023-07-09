@@ -1,0 +1,36 @@
+.main {
+    padding: 10px;
+}
+
+.DashBoard-content {
+    width: 100% !important;
+}
+
+.header {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-bottom: 20px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.body {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    height: 84vh !important;
+    width: 100%;
+    padding: 15px;
+    overflow-x: auto !important;
+}
+
+
+
+.menuBar {
+    display: none;
+}
+

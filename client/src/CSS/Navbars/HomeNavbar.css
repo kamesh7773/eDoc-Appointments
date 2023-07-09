@@ -1,0 +1,150 @@
+/* logo */
+
+.sign {
+    color: white !important;
+    height: auto !important;
+    width: 160px !important;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+}
+
+.sign-strong {
+    font-size: xx-large !important;
+    color: white !important;
+}
+
+.sign-p {
+    color: white !important;
+    font-size: small !important;
+}
+
+
+/* navbar */
+
+.homepage {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 00px 80px !important;
+    padding-top: 16px !important;
+}
+
+
+#navbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#navbar li {
+    list-style: none !important;
+    position: relative !important;
+}
+
+
+#navbar li a.active {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    font-size: 2rem !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px !important;
+    transition: 0.6s ease !important;
+    margin-right: 25px !important;
+}
+
+
+
+#navbar li a.active:hover {
+    background-color: #fff !important;
+    color: black !important;
+
+}
+
+#mobile {
+    display: none !important;
+}
+
+.icons {
+    display: block !important;
+}
+
+
+
+@media screen and (max-width:769px) {
+
+    .homepage {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        padding: 00px 20px !important;
+        padding-top: 16px !important;
+    }
+
+    .sign-p{
+        margin-left: -15px !important;
+        font-size: small;
+        
+    }
+
+    .sign-strong {
+        font-size: 3rem !important;
+    }
+
+
+    #navbar {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        position: fixed !important;
+        top: 0px !important;
+        right: -300px !important;
+        width: 19rem !important;
+        height: 100vh !important;
+        padding: 40px 0 0 10px !important;
+        background: rgba(225, 225, 225, 0.1) !important;
+        backdrop-filter: blur(15px) !important;
+        z-index: 999;
+        transition: 0.3s ease-in-out;
+        text-align: center !important;
+    }
+
+    #navbar.active {
+        right: 0px !important;
+    }
+
+    #navbar li {
+        margin-bottom: 25px !important;
+        padding: 8px !important;
+        text-align: center;
+        position: relative;
+        left: 0rem;
+        top: 3rem;
+    }
+
+    #navbar li a.active {
+        margin-left: 20px;
+        font-size: 1.9rem !important;
+        font-weight: 700;
+    }
+
+    #navbar li Link:hover {
+        color: black !important;
+    }
+
+    #mobile {
+        display: block !important;
+    }
+
+
+    #mobile .icons {
+        font-size: 35px !important;
+        cursor: pointer !important;
+        color: white;
+        position: relative;
+        z-index: 9999;
+        transition: 0.3s ease-in-out;
+    }
+
+}
