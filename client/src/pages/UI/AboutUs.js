@@ -23,13 +23,7 @@ class Navbar extends Component {
               <br />
               <br />
               <p>
-                eDoc is a user-friendly MERN stack
-                application that simplifies the process of booking doctor
-                appointments and medical tests. Our platform aims to enhance
-                healthcare access by providing a comprehensive database of
-                doctors, easy appointment scheduling, seamless communication
-                between patients and doctors, and convenient booking of medical
-                tests.
+              Established by Dr Kamesh Singh Sisodiya , Dr Kapil Banjara and Dr Bharat Chandak with the help of our trusty Mr Harsh Kalwani in 2022 ,eDoc Healthcares has robust presence across the healthcare ecosystem. From routine well and & preventive health care to innovate life saving treatments and diagnostic services. eDoc haa saved over 1 million lives from over whole India, offering the best clinical outcomes
               </p>
             </div>
           </div>
