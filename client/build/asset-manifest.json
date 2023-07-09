@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.73e3130c.css",
-    "main.js": "/static/js/main.afa36f62.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "main.css": "/static/css/main.32d41887.css",
+    "main.js": "/static/js/main.a59ae937.js",
     "static/media/img_5.jpg": "/static/media/img_5.c23ada2dddfada0fe7d2.jpg",
     "static/media/5160427.jpg": "/static/media/5160427.c4a4c3e1af02f6003d07.jpg",
     "static/media/kapil.jpg": "/static/media/kapil.425bc268afd152b3945d.jpg",
     "static/media/kameshdoc.png": "/static/media/kameshdoc.076c6f3fc3a173d8a33e.png",
     "static/media/bhartiya.jpg": "/static/media/bhartiya.4c8c83352a37ed008ddd.jpg",
-    "static/media/fifthteen_years.png": "/static/media/fifthteen_years.9cae094482039a7faaf6.png",
     "static/media/Eleventhorg.jpg": "/static/media/Eleventhorg.97c296768a8b71332c4d.jpg",
+    "static/media/fifthteen_years.svg": "/static/media/fifthteen_years.513fc06cae3fe28345d5ed132b90c27e.svg",
     "static/media/img_1.jpg": "/static/media/img_1.1959b4a1b98109a1f45a.jpg",
     "static/media/Twoorg.jpeg": "/static/media/Twoorg.33b063ad6fe6d27340da.jpeg",
     "static/media/Sixorg.jpeg": "/static/media/Sixorg.0377738c57ec0f1a9488.jpeg",
@@ -24,12 +23,11 @@
     "static/media/img_6.svg": "/static/media/img_6.6ee1beadbd641121cde373711b084f05.svg",
     "static/media/img_9.svg": "/static/media/img_9.ffc1f3f5bc6722e8df500b1626598288.svg",
     "index.html": "/index.html",
-    "main.73e3130c.css.map": "/static/css/main.73e3130c.css.map",
-    "main.afa36f62.js.map": "/static/js/main.afa36f62.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.32d41887.css.map": "/static/css/main.32d41887.css.map",
+    "main.a59ae937.js.map": "/static/js/main.a59ae937.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e3130c.css",
-    "static/js/main.afa36f62.js"
+    "static/css/main.32d41887.css",
+    "static/js/main.a59ae937.js"
   ]
 }
