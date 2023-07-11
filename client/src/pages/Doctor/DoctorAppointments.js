@@ -34,7 +34,7 @@ function DoctorAppointments() {
   const changeAppointmentStatus = async (record, status) => {
     try {
       dispatch(showLoading());
-      const resposne = await axios.post("/api/doctor/change-user-appointment-status",
+      const resposne = await axios.post("/api/doctor/change-appointment-status",
         { appointmentId : record._id, status: status },
         {
           headers: {

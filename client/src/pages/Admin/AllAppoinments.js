@@ -32,6 +32,28 @@ function AllAppoinments() {
         dispatch(hideLoading());
       }
     };
+
+    const changeAppointmentStatus = async (record, status) => {
+      try {
+        dispatch(showLoading());
+        const resposne = await axios.post("/api/doctor/change-appointment-status",
+          { appointmentId : record._id, status: status },
+          {
+            headers: {
+              Authorization: `Bearer ${localStorage.getItem("token")}`,
+            },
+          }
+        );
+        dispatch(hideLoading());
+        if (resposne.data.success) {
+          toast.success(resposne.data.message);
+          getAppointmentsData();
+        }
+      } catch (error) {
+        toast.error("Error changing user account status");
+        dispatch(hideLoading());
+      }
+    };
   
 
   const columns = [
@@ -90,6 +112,19 @@ function AllAppoinments() {
     {
       title: "Status",
       dataIndex: "status",
+    },
+    {
+      title: "Actions",
+      dataIndex: "actions",
+      render: (text, record) => (
+        <div className="d-flex">
+            <div className="d-flex">
+              {record.status === "pending" && (<h1 className="approve-btn px-2" onClick={() => changeAppointmentStatus(record, "Approve")} >Approve</h1>)} 
+              {record.status === "Approve" && (<h1 className="block-btn px-2" onClick={() => changeAppointmentStatus(record, "Reject")} >Reject</h1>)} 
+              {record.status === "Reject" && (<h1 className="approve-btn px-2" onClick={() => changeAppointmentStatus(record, "Approve")} >Approve</h1>)} 
+            </div>
+        </div>
+      ),
     },
 
   ];

@@ -99,7 +99,7 @@ router.get( "/get-appointments-by-doctor-id", authMiddleware, async (req, res) =
 // This API helps in changing the user Appointment status
 // --------------------------------------------------------
 
-router.post("/change-user-appointment-status", authMiddleware, async (req, res) => {
+router.post("/change-appointment-status", authMiddleware, async (req, res) => {
   try {
     const { appointmentId, status } = req.body;
     const appointment = await Appointment.findByIdAndUpdate(appointmentId, {
